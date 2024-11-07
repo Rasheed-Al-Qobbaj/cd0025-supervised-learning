@@ -1633,8 +1633,6 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
   fill: var(--jp-brand-color1);
 }
 
-/* stylelint-disable selector-max-class, selector-max-compound-selectors */
-
 
 .lm-DockPanel-tabBar
   .lm-TabBar-tab.lm-mod-closable.jp-mod-dirty
@@ -8290,22 +8288,22 @@ It is a ratio of true positives (words classified as spam, and which are actuall
 <ol>
 <li><strong>Random Forest</strong><ul>
 <li><strong>Real-world application:</strong> Random Forest can be used in Fraud detection for bank accounts, credit card. <a href="https://www.kaggle.com/discussions/general/208443">Reference</a></li>
-<li><strong>Strengths:</strong> One of the strengths for the Random Forest algorithm is its Robustness to Noise: As Random Forest combines the forecasts of several decision trees, it is resilient to noisy data. Because noisy data points are unlikely to alter the forecasts of every tree in the forest, they have a lower chance of affecting the overall performance of the model. Random Forest works well with datasets that contain outliers or intrinsic noise because of its robustness. <a href="https://www.geeksforgeeks.org/what-are-the-advantages-and-disadvantages-of-random-forest/">Reference</a></li>
-<li><strong>Weaknesses:</strong> One of the weaknesses for the Random Forest algorithm is Memory Usage: Random Forest models have a tendency to use a lot of memory, particularly when working with big datasets or deeply rooted trees. The training data, feature splits, and leaf node predictions must all be stored in each decision tree in the forest. Memory utilization rises with the number of trees or the depth of the trees, which may cause memory limitations on some hardware systems. <a href="https://www.geeksforgeeks.org/what-are-the-advantages-and-disadvantages-of-random-forest/">Reference</a></li>
+<li><strong>Strengths:</strong> The Random Forest algorithm's robustness to noise is one of its advantages; it can withstand noisy data since it integrates the predictions of multiple decision trees. Noisy data points are less likely to impact the model's overall performance because they are unlikely to change the predictions of each tree in the forest. Because of its resilience, Random Forest performs well on datasets that include outliers or inherent noise. <a href="https://www.geeksforgeeks.org/what-are-the-advantages-and-disadvantages-of-random-forest/">Reference</a></li>
+<li><strong>Weaknesses:</strong> Memory Usage is one of the Random Forest algorithm's drawbacks. Random Forest models often consume large amounts of memory, especially when dealing with large datasets or deeply rooted trees. Every decision tree in the forest needs to hold the training data, feature splits, and leaf node predictions. Certain hardware systems may experience memory restrictions as a result of increased memory use caused by the number or depth of trees. <a href="https://www.geeksforgeeks.org/what-are-the-advantages-and-disadvantages-of-random-forest/">Reference</a></li>
 <li><strong>Candidacy:</strong> Random Forest is a good candidate for the problem as it can handle both numerical and categorical data, which is present in the dataset. It can also handle a large number of features and is less likely to overfit compared to decision trees.</li>
 </ul>
 </li>
 <li><strong>Support Vector Machines (SVM)</strong><ul>
 <li><strong>Real-world application:</strong> SVM can be used in Face detection to decide if the image has a face or not. <a href="https://www.datasciencecentral.com/real-life-applications-of-support-vector-machines/">Reference</a></li>
-<li><strong>Strengths:</strong> The kernel trick is real strength of SVM. With an appropriate kernel function, you can solve any complex problem. <a href="https://statinfer.com/204-6-8-svm-advantages-disadvantages-applications/">Reference</a></li>
-<li><strong>Weaknesses:</strong> Since the final model is not so easy to see, we can not do small calibrations to the model hence its tough to incorporate our business logic. <a href="https://statinfer.com/204-6-8-svm-advantages-disadvantages-applications/">Reference</a></li>
+<li><strong>Strengths:</strong> SVM's true strength is the kernel technique. You can solve any complicated problem if you have the right kernel function. <a href="https://statinfer.com/204-6-8-svm-advantages-disadvantages-applications/">Reference</a></li>
+<li><strong>Weaknesses:</strong> It is difficult to include our business logic into the final model because it is difficult to see and we are unable to make minor adjustments to it. <a href="https://statinfer.com/204-6-8-svm-advantages-disadvantages-applications/">Reference</a></li>
 <li><strong>Candidacy:</strong> SVM is a good candidate for the problem as it can work well with a clear margin of separation and high dimensional space, which is the case in this dataset.</li>
 </ul>
 </li>
 <li><strong>AdaBoost</strong><ul>
 <li><strong>Real-world application:</strong> AdaBoost can be used in NLP, specifically Text Classification (Spam detection). <a href="https://dataaspirant.com/adaboost-algorithm/">Reference</a></li>
-<li><strong>Strengths:</strong> Scalability: Adaboost can handle large and complex datasets. So, if you're working with big data, Adaboost is a great choice. <a href="https://dataaspirant.com/adaboost-algorithm/">Reference</a></li>
-<li><strong>Weaknesses:</strong> Sensitivity to Noisy Data: Adaboost is sensitive to noisy data. This means that if your dataset has a lot of errors, Adaboost can produce inaccurate results. <a href="https://dataaspirant.com/adaboost-algorithm/">Reference</a></li>
+<li><strong>Strengths:</strong> Scalability: Adaboost is capable of managing intricate and big datasets. Adaboost is therefore a fantastic option if you're working with huge data. <a href="https://dataaspirant.com/adaboost-algorithm/">Reference</a></li>
+<li><strong>Weaknesses:</strong> Sensitivity to Noisy Data: Adaboost shows sensitivity towards noisy data. This implies that if your dataset contains numerous errors, Adaboost may yield incorrect results. <a href="https://dataaspirant.com/adaboost-algorithm/">Reference</a></li>
 <li><strong>Candidacy:</strong> AdaBoost is a good candidate because it can handle outliers and is not prone to overfitting. It can handle large datasets and is computationally efficient.</li>
 </ul>
 </li>
